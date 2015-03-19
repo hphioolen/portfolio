@@ -10,10 +10,10 @@ query_posts( array( 'post_type' => 'portfolio', 'posts_per_page' => 12, ) );
 	if ( have_posts() ) : $count = 0; ?>    
 	
 	  
-	  <div class="clearfix" id="features">
-		  <h2 class='portfolio-title'>Portfolio</h2>
+	  <div class="clearfix" id="portfolio">
+		  
 		  <div class="container">
-			 			 
+			 <h2 class='portfolio-title'>Portfolio</h2>			 
 		  	<div class="row">
 	    	
 				<?php while ( have_posts() ) : the_post(); $count++; ?>
