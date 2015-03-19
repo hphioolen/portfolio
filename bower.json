@@ -7,8 +7,8 @@
   ],
   "description": "POrtfolio pagina's voor Sage",
   "main": [
-  "./css/*",
-  " ./js/*"
-  ]
+	  "./css/*",
+	  " ./js/*"
+  ],
   "license": "MIT"
 }
