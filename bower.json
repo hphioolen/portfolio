@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "homepage": "https://github.com/hphioolen/portfolio",
+  "authors": [
+    "hphioolen"
+  ],
+  "description": "POrtfolio pagina's voor Sage",
+  "main": "./css/*, ./js/*",
+  "license": "MIT"
+}
