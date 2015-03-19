@@ -2,7 +2,7 @@
 	# Portfolio items vergaard in de eerste 12 items die in een bootstrap grid wordt weergegeven
 	# standaard col-sm-4
 	#CSS maakt gebruik van de hover effects van http://tympanus.net/Development/HoverEffectIdeas/index.html
-
+?>
 <?php 
 
 query_posts( array( 'post_type' => 'portfolio', 'posts_per_page' => 12, ) );
