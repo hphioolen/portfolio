@@ -6,6 +6,9 @@
     "hphioolen"
   ],
   "description": "POrtfolio pagina's voor Sage",
-  "main": "./css/*, ./js/*",
+  "main": [
+  "./css/*",
+  " ./js/*"
+  ]
   "license": "MIT"
 }
