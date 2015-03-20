@@ -1,11 +1,19 @@
 # portfolio
 basis portfolio bestanden voor sage theme
 
+## Todo
+-Voorbeeld in assets/JS, main.js
+-Voorbeeld in assets/Less om standaard vormgeving aan te passen op de website styling.
+
 
 ## Benodigd:
 - Custom post type 'portfolio';
 - Custom Taxonomy 'portfolio-categorie'
 - Variabelen om single-post te vullen.
+
+## JS
+Pas de main.js aan om op alle pagina's (of als dat niet nodig is de home-page),fancybox op anchors van images met de toevoeging 'fancybox' uit te voeren.
+Voorbeeld in assets
 
 ## CSS
 Geintegreerde CSS is die van hover effectideas set 1 en 2:
@@ -25,13 +33,17 @@ De opbouw van de bestanden in de template is als volgt:
 
 # Dependancies
 
-## Fancybox
-
 | pakket   | Overrides | 
 |----------|-----------|-------------|
-| fancybox | Yes       | kopieer alle image files uit de fancy box naar de asset folder
+| fancybox | Yes       | 
 
-Fancy box mist wel eens de bower.json, die moet dan met de hand worden toegeveoegd:
+## Fancybox
+
+Kopieer alle image files uit de fancy box naar de asset folder
+
+Fancy box mist wel eens (vaak) de bower.json, die moet dan met de hand worden toegevoegd:
+Voordeel daarvan is dat de overrides in 1x goed staan dan:
+
 {
 	"name": "fancybox",
 	"version": "2.1.5",
@@ -48,4 +60,5 @@ Fancy box mist wel eens de bower.json, die moet dan met de hand worden toegeveoe
 		"jquery": ">=1.10"
 	}
 }
+
 
