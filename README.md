@@ -2,22 +2,30 @@
 basis portfolio bestanden voor sage theme
 
 
-# Benodigd:
+## Benodigd:
 - Custom post type 'portfolio';
-- 
-#CSS
+- Custom Taxonomy 'portfolio-categorie'
+- Variabelen om single-post te vullen.
+
+## CSS
 Geintegreerde CSS is die van hover effectideas set 1 en 2:
 http://tympanus.net/Development/HoverEffectIdeas/
 
-# Less
+## Less
 Om de less bestanden te gebruiken moet de volgende regel worden toegevoegd aan de main.less files:
 
 @import "components/_portfolio";
 
 Verplaats vervolgens de less bestanden naar de components folder en geef het gulp commando.
 
+## Template files
+De opbouw van de bestanden in de template is als volgt:
+
+- Sectie op de Homepage
+
 # Dependancies
-Fancybox
+
+## Fancybox
 
 | pakket   | Overrides | 
 |----------|-----------|-------------|
