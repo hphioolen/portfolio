@@ -32,7 +32,7 @@ use Roots\Sage\Wrapper;
     </div><!-- /.wrap -->
     
     <?php if (is_front_page()): ?>	
-		<?php get_template_part('templates/includes/portfolio-categorie'); ?>template
+		<?php get_template_part('templates/includes/portfolio-categorie'); ?>
 	<?php endif; ?> 
     
     <?php
