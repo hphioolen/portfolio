@@ -4,7 +4,7 @@
 	
 	#CSS maakt gebruik van de hover effects van http://tympanus.net/Development/HoverEffectIdeas/index.html
 	$effect_class  		= 'effect-zoe';
-	$item_class    		= 'col-sm-4 text-center';
+	$item_class    		= 'col-sm-3 text-center';
 	$full_frame_link 	= false;
 	
 ?>
@@ -18,6 +18,7 @@ $terms = get_terms( 'portfolio-categorie', $args );?>
 <?php if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) : ?>
 
 <div class="clearfix" id="portfolio">
+	<a name="portfolio"></a>
 		  
 	<div class="container">
 		<h2 class='portfolio-title'>Portfolio</h2>			 
